@@ -41,16 +41,58 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
+.controller('CachorrosCtrl', function($scope) {
+    $scope.animais = [
+      {
+        "id"        : "1",
+        "nome"      : "Thor",
+        "descricao" : "blablablablablablablablablablablablabla",
+        "contato"   : "2345678",
+        "imagem"    : "http://lorempixel.com/300/150/animals/55"
+      },
+      {
+        "id"        : "2",
+        "nome"      : "Eike",
+        "descricao" : "duxduxduxduxduxduxduxduxduxduxduxduxdux",
+        "contato"   : "1223131323",
+        "imagem"    : "http://lorempixel.com/300/150/animals/55"
+      },
+      {
+        "id"        : "3",
+        "nome"      : "Cunha",
+        "descricao" : "freifreifreifreifreifreifreifreifreifrei",
+        "contato"   : "5656756",
+        "imagem"    : "http://lorempixel.com/300/150/animals/55"
+      },
+      {
+        "id"        : "4",
+        "nome"      : "Aecio",
+        "descricao" : "calancalancalancalancalancalancalancalan",
+        "contato"   : "675776576",
+        "imagem"    : "http://lorempixel.com/300/150/animals/55"
+      }
+    ];
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
+.controller('CachorroCtrl', function($scope) {
+    $scope.titulo = "AQUI TEREMOS DETALHES DOS CACHORROS, AGUARDEM";
+    $scope.animais = [
+      {
+        "id"        : "1",
+        "nome"      : "Thor",
+        "descricao" : "blablablablablablablablablablablablabla",
+        "contato"   : "2345678",
+        "imagem"    : "http://lorempixel.com/300/150/animals/55"
+      }
+    ];
+})
+
+
+.controller('GatosCtrl', function($scope) {
+    $scope.animais = [];
+})
+
+.controller('PerfilCtrl', function($scope) {
+
+  
 });
